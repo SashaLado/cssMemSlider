@@ -224,23 +224,23 @@ label, a{
 		min-height: 15px;
 	}
 
-	#active{ /*расположение блока с переключателями*/
+	#active{
 		margin: 0 0 0;
 		text-align: center;
 	}
-	#slides .image{ /*устанавливает общий размер блока с изображениями*/
+	#slides .image{
 		width: 500%;
 		line-height: 0;
 	}
 
-	#text .textContent{ /*устанавливает общий размер блока с изображениями*/
+	#text .textContent{
 		width: 400%;
 	}
 
-	article img{ /*размер изображений слайдера*/
+	article img{
 		border-radius: 5px;
 	}
-	#text article{ /*все изображения справа друг от доруга*/
+	#text article{
 		width: 25%;
 		float: left;
 	}
