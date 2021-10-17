@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Слайдер на CSS</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div class="all">
+		<input checked type="radio" name="respond" id="desktop">
+			<article id="slider">
+					<input checked type="radio" name="slider" id="switch1">
+					<input type="radio" name="slider" id="switch2">
+					<input type="radio" name="slider" id="switch3">
+					<input type="radio" name="slider" id="switch4">
+					<input type="radio" name="slider" id="switch5">
+				<div id="slides">
+					<div id="overflow">
+						<div class="image">
+							<article><img src="img/1.jpg"></article>
+							<article><img src="img/2.jpg"></article>
+							<article><img src="img/3.jpg"></article>
+							<article><img src="img/4.jpg"></article>
+						</div>
+					</div>
+				</div>
+				<div id="text">
+					<div id="textOverflow">
+						<div class="textContent">
+							<article>
+								<div class="text-wrapper">
+									Good morning!
+								</div>
+							</article>
+							<article>
+								<div class="text-wrapper">
+									I'm watching you.
+								</div>
+							</article>
+							<article>
+								<div class="text-wrapper">
+									Derp
+								</div>
+							</article>
+							<article>
+								<div class="text-wrapper">
+									WOW!
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+				<div id="controls">
+					<label for="switch1"></label>
+					<label for="switch2"></label>
+					<label for="switch3"></label>
+					<label for="switch4"></label>
+				</div>
+				<div id="active">
+					<label for="switch1">
+						<div class="switch-label"></div>
+					</label>
+					<label for="switch2">
+						<div class="switch-label"></div>
+					</label>
+					<label for="switch3">
+						<div class="switch-label"></div>
+					</label>
+					<label for="switch4">
+						<div class="switch-label"></div>
+					</label>
+				</div>
+			</article>
+	</div>
+</body>
+</html>
